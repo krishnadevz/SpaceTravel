@@ -5,26 +5,29 @@
   padding: 40px;
   margin: 0 auto;
   max-height: 100%;
+  width: auto;
+
 }
 
-.space .img {
-  width: 50%;
+.space img {
+  width: 80%;
   margin-right: 50px;
   object-fit: contain;
   max-height: 80vh;
+
 }
 
-.space .h1 {
+.space h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.space .date {
+.space date {
   margin-top: 0;
   margin-bottom: 30px;
 }
 
-.space .explanation {
+.space explanation {
   color: #bbb;
 }
 
@@ -33,10 +36,11 @@
     display: block;
   }
 
-  .space .img {
+  .space img {
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
+    
   }
 }
 
