@@ -42,8 +42,9 @@ async function fetchPhoto(){
         <p className={styles.space.date}>{photoData.date}</p>
         <p className={styles.space.explanation}>{photoData.explanation}</p>
       </div>
-      
-    </div>
+    </div> 
+    <button className={styles.button}>Listen🔊</button>
+
     </>
   );
 }

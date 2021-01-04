@@ -18,11 +18,12 @@ code {
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-  font-family: 'Righteous', cursive;
+  font-family: 'helvetica', cursive;
+  font-weight: bold;
   color: #e7e7e7;
   line-height: 1.7;
   font-size: 20px;
-  background-color: #2e2e2e;
+  background-color: #030303;
 }
 
 
