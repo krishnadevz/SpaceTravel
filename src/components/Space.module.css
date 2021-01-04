@@ -47,17 +47,18 @@
 .button {
   display: inline-block;
   padding: 15px 25px;
-  font-size: 24px;
+  font-size: 15px;
   cursor: pointer;
   text-decoration: none;
   outline: none;
   color: #fff;
   background-color: #0719bb;
   border: black;
-  margin-left:450px;
+  margin-left:150px;
+  margin-right:100px;
 }
 .button:hover {
-  background-color: #9fa79f;
+  background-color: #101110;
 }
 
 

@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./Space.module.css";
-
+import { useSpeechSynthesis } from 'react-speech-kit';
 import {useState,useEffect} from "react";
 function Space() {
+  const [value, setValue] = useState('');
+  const { speak } = useSpeechSynthesis();
   const [photoData,setPhotoData]=useState(null);
   useEffect(()=>{
 fetchPhoto();
@@ -40,11 +42,13 @@ async function fetchPhoto(){
       <div>
         <h1>{photoData.title}</h1>
         <p className={styles.space.date}>{photoData.date}</p>
-        <p className={styles.space.explanation}>{photoData.explanation}</p>
+        <p className={styles.space.explanation} value={photoData.explanation}
+        onChange={(event) => setValue(event.target.explanation)}>{photoData.explanation}</p>
       </div>
     </div> 
-    <button className={styles.button}>Listen🔊</button>
-
+    <div>
+    <button className={styles.button} onClick={() => speak({ text: photoData.explanation })}>Listen 🔊</button>
+    </div>
     </>
   );
 }
