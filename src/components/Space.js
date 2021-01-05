@@ -3,7 +3,7 @@ import styles from "./Space.module.css";
 import { useSpeechSynthesis } from 'react-speech-kit';
 import {useState,useEffect} from "react";
 function Space() {
-  const [value, setValue] = useState('');
+  const [ setValue] = useState('');
   const { speak } = useSpeechSynthesis();
   const [photoData,setPhotoData]=useState(null);
   useEffect(()=>{
@@ -49,6 +49,7 @@ async function fetchPhoto(){
     <div>
     <button className={styles.button} onClick={() => speak({ text: photoData.explanation })}>Listen 🔊</button>
     </div>
+    
     </>
   );
 }
