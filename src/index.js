@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Space from "./components/Space";
 import Globe from "./components/Globe";
+import Search from "./components/Search";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -12,6 +13,8 @@ ReactDOM.render(
     <Switch>
     <Route exact path="/" component={Globe}/>
     <Route path="/Space" exact component={Space} />
+    <Route path="/Search" exact component={Search} />
+
     </Switch>
   </React.StrictMode>
   </BrowserRouter>

@@ -4,25 +4,29 @@ import ReactGlobe from "react-globe";
 import useSound from "use-sound";
 import sound from "../Missle_Launch-Kibblesbob-2118796725.mp3";
 import { Link } from "react-router-dom";
+import { Container } from 'react-bootstrap'
 
 function Globe() {
   const [play] = useSound(sound);
 
   return (
-    <div className="Globe">
-      <ReactGlobe height="90vh" width="100vw" />
-      <div className={styles.buttons}>
-        <div>
+    ///make this container smaller as i mentioned in twitter dms
+    <Container className={styles.globe} fluid={true}> 
+      <ReactGlobe height="99vh" width="100%"/>
+      <div className={styles.homeContent}>
+        <h1>
           <span>⭐🌟☄🌠🌟☀🌌🪐🌍🌚🌙🌕</span>
+          <br/>Welcome To The Space Travel
+        </h1>
+        <div className={styles.buttons}>
+            <Link to="/space">
+              <button onClick={play} className={styles.button}>
+                Liftoff!
+              </button>
+            </Link>
         </div>
-        <div>
-          <Link target={"_blank"} to="/Space">
-            <button onClick={play} className={styles.button}>
-              Welcome To The Space Travel🌌
-            </button>
-          </Link>
-      </div></div>
-    </div>
+      </div>
+    </Container>
   );
 }
 
