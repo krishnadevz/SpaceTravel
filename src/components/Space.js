@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col,Button} from 'react-bootstrap'
 import styles from "./Space.module.css";
 import { useSpeechSynthesis } from 'react-speech-kit';
 import {useState,useEffect} from "react";
-import bg from '../assets/space-bg.jpg'
+import bg from '../assets/space-bg.jpeg';
 import { ArrowLeft } from 'react-bootstrap-icons';
+
 
 function Space() {
   const [ setValue] = useState('');
@@ -55,7 +56,12 @@ function Space() {
             onChange={(event) => setValue(event.target.explanation)}>{photoData.explanation}</p>
         </Col>
       </Row> 
+      <Link to="/Search">
+
+    <Button variant="primary">Primary</Button>
+      </Link>
     </Container>
+    
   );
 }
 export default Space;

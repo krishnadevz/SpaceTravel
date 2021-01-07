@@ -5,13 +5,16 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Space from "./components/Space";
 import Globe from "./components/Globe";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Search from "./components/Search";
+
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
     <Switch>
-      <Route exact path="/" component={Globe}/>
-      <Route exact path="/space" exact component={Space} />
+    <Route exact path="/" component={Globe}/>
+    <Route path="/Space" exact component={Space} />
+    <Route path="/Search" exact component={Search} />
+
     </Switch>
   </React.StrictMode>
   </BrowserRouter>

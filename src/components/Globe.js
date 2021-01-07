@@ -10,7 +10,8 @@ function Globe() {
   const [play] = useSound(sound);
 
   return (
-    <Container className="Globe" fluid={true}>
+    ///make this container smaller as i mentioned in twitter dms
+    <Container className={styles.globe} fluid={true}> 
       <ReactGlobe height="99vh" width="100%"/>
       <div className={styles.homeContent}>
         <h1>
