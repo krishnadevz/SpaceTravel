@@ -1,27 +1,51 @@
+.homeContent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #101110;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2.5rem 3.5rem;
+  box-shadow: 0 0px 5px #555;
+  color: #fafafa;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.homeContent h1{
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.homeContent h1 span{
+  font-size: 22px;
+}
+
 .button {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 24px;
+    font-size: 18px;
+    letter-spacing: 2px;
     cursor: pointer;
+    text-shadow: 0 0px 5px #555;
     text-decoration: none;
-    outline: none;
     color: #fff;
-    background-color: #0c0f0c;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 0 9px #999;
+    background-color: transparent;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+    
   }
-  .button:hover {
-    background-color: #9fa79f;
+  .button:hover, .button:active {
+    background-color: #fafafa;
+    box-shadow: 0 0px 5px #555;
+    color: #101110;
   }
   
-  .button:active {
-    background-color: #090a09;
-    box-shadow: 0 5px rgb(231, 227, 227);
-    transform: translateY(4px);
-  }
   .buttons {
+    padding: 1;
     text-align: center;
-    background-color: #384ab1;
   }
-  
