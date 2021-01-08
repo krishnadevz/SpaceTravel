@@ -56,9 +56,8 @@ function Space() {
             onChange={(event) => setValue(event.target.explanation)}>{photoData.explanation}</p>
         </Col>
       </Row> 
-      <Link to="/Search">
-
-    <Button variant="primary">Primary</Button>
+      <Link to="/search">
+        <Button variant="primary">Primary</Button>
       </Link>
     </Container>
     
