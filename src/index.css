@@ -1,8 +1,9 @@
 html{
   padding: 0;
   margin: 0;
-  background: #030303;
+  background: #030303 !important;
 }
+
 body {
   height: 100%;
   width: 100%;
@@ -24,16 +25,6 @@ code {
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-/* body {
-  font-family: 'helvetica', cursive;
-  font-weight: bold;
-  color: #e7e7e7;
-  line-height: 1.7;
-  font-size: 20px;
-  background-color: #030303;
-} */
-
 .Globe{
   position: relative;
-  background: #030303;
 }

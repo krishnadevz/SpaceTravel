@@ -1,52 +1,58 @@
-.homeContent{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #101110;
-  text-align: center;
-  border-radius: 5px;
+.homeContent {
   padding: 2.5rem 3.5rem;
-  box-shadow: 0 0px 5px #555;
   color: #fafafa;
   user-select: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  background: #030303;
 }
 
-.homeContent h1{
+.homeContent h1 {
   margin: auto;
   margin-bottom: 1rem;
-}
-
-.homeContent h1 span{
-  font-size: 22px;
+  text-shadow: 0 0px 5px #555;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    text-shadow: 0 0px 5px #555;
-    text-decoration: none;
-    color: #fff;
-    background-color: transparent;
-    border: 2px solid #fafafa;
-    border-radius: 5px;
-    
-  }
-  .button:hover, .button:active {
-    background-color: #fafafa;
-    box-shadow: 0 0px 5px #555;
-    color: #101110;
-  }
-  
-  .buttons {
-    padding: 1;
-    text-align: center;
-  }
-  
+  display: block;
+  padding: 15px 25px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-shadow: 0 0px 5px #555;
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.button:hover,
+.button:active {
+  background-color: #fafafa;
+  box-shadow: 0 0px 5px #555;
+  color: #101110;
+  text-decoration: none;
+}
+
+.buttons,
+.buttons a:hover {
+  text-decoration: none;
+}
+
+.aboutContent {
+  max-width: 55rem !important;
+  width: 100%;
+  margin: 5rem auto;
+  line-height: 2;
+}
+
+.aboutContent p:first-child {
+  text-align: center !important;
+  margin: auto;
+}
