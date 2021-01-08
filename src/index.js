@@ -7,14 +7,16 @@ import Space from "./components/Space";
 import Globe from "./components/Globe";
 import Search from "./components/Search";
 
+// do not delete this
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
     <Switch>
-    <Route exact path="/" component={Globe}/>
-    <Route path="/Space" exact component={Space} />
-    <Route path="/Search" exact component={Search} />
-
+      <Route exact path="/" component={Globe}/>
+      <Route path="/space" exact component={Space} />
+      <Route path="/search" exact component={Search} />
     </Switch>
   </React.StrictMode>
   </BrowserRouter>
