@@ -9,7 +9,7 @@
   overflow: auto !important;
 }
 
-.space svg{
+.space svg {
   background-color: #101110;
   box-shadow: 0 0px 5px #555;
   color: #fafafa;
@@ -30,7 +30,7 @@
   align-items: center;
 }
 
-.space .row_1 .col-12{
+.space .row_1 .col-12 {
   background: red !important;
 }
 
@@ -55,22 +55,28 @@
   margin: 0 5px;
 }
 
-.button:hover{
+.button:hover {
   background-color: #fafafa;
   color: #101110;
 }
 
-.button:hover, .button:active, .button:focus {
+.button:hover,
+.button:active,
+.button:focus {
   outline: none;
 }
 
-.space p{
+.space p {
   line-height: 2;
 }
 
-.header{
+.header {
   display: flex !important;
   padding: 0.5rem !important;
   justify-content: start;
+  align-items: center;
+}
+.textcenter {
+  justify-content: center;
   align-items: center;
 }

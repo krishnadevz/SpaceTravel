@@ -1,26 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Space from "./components/Space";
 import Globe from "./components/Globe";
 import Search from "./components/Search";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <BrowserRouter>
-  <React.StrictMode>
-    <Switch>
-    <Route exact path="/" component={Globe}/>
-    <Route path="/Space" exact component={Space} />
-    <Route path="/Search" exact component={Search} />
-
-    </Switch>
-  </React.StrictMode>
-  </BrowserRouter>
- ,
-
-  document.getElementById('root')
+    <React.StrictMode>
+      <Switch>
+        <Route exact path="/" component={Globe} />
+        <Route path="/Space" exact component={Space} />
+        <Route path="/Search" exact component={Search} />
+      </Switch>
+    </React.StrictMode>
+  </BrowserRouter>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

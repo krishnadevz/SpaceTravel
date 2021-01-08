@@ -1,5 +1,7 @@
-import React, {useState} from "react"
+import React, { useState } from "react";
 import Unsplash, { toJson } from "unsplash-js";
+import styles from "./Search.module.css";
+
 function Search() {
   const [query, setQuery] = useState("");
   const unsplash = new Unsplash({
@@ -7,51 +9,50 @@ function Search() {
   });
   const [pics, setPics] = useState([]);
 
- 
-const searchPhotos = async (e) => {
-  e.preventDefault();
-  unsplash.search
+  const searchPhotos = async (e) => {
+    e.preventDefault();
+    unsplash.search
       .photos(query, 1, 20)
       .then(toJson)
       .then((json) => {
         setPics(json.results);
-  });
-};
+      });
+  };
   return (
-    <>
-    <div className="container">
-        <h1 className="title">Space Photo Search</h1>
+    <div className={styles.bg}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Space Photo Search🛸</h1>
       </div>
-      <form className="form" onSubmit={searchPhotos}>
-              <label className="label" htmlFor="query"> 
-        {" "}
-        📷
-      </label>
-      <input
-        type="text"
-        name="query"
-        className="input"
-        placeholder={`Try anything related to space`}
-        value={query}
-    onChange={(e) => setQuery(e.target.value)}
-      />
-      <button type="submit" className="button">
-        Search
-      </button>
-    </form>
-    <div className="card-list">
-        {pics.map((pic) =>
+      <form className={styles.form} onSubmit={searchPhotos}>
+        <label className={styles.label} htmlFor="query">
+          {" "}
+        </label>
+        <input
+          type="text"
+          name="query"
+          className={styles.input}
+          placeholder={`Try anything related to space`}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <button type="submit" className={styles.button}>
+          Search🔍
+        </button>
+      </form>
+      <div className={styles.cardlist}>
+        {pics.map((pic) => (
           <div className="card" key={pic.id}>
             <img
-              className="card--image"
+              className={styles.cardimage}
               alt={pic.alt_description}
               src={pic.urls.full}
               width="50%"
               height="50%"
             ></img>
-          </div>)}
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 }
 
