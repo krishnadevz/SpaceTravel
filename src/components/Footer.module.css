@@ -1,22 +1,22 @@
 .footerContainer {
-    max-width: 55rem !important;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+  max-width: 55rem !important;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .ul {
-    list-style-type: none;
-    padding: 0;
-    padding-bottom: 2rem;
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 2rem;
 }
 
 .footerContainer h4,
 .ul {
-    text-align: left;
+  text-align: left;
 }
 
 .ul a,
 .ul a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
