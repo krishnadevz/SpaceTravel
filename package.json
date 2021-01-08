@@ -19,6 +19,7 @@
     "react-speech-kit": "^3.0.1",
     "styled-components": "^5.2.1",
     "three": "^0.124.0",
+    "unsplash-js": "^6.0.0",
     "use-sound": "^2.0.1",
     "web-vitals": "^0.2.4"
   },
