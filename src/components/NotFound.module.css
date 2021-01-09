@@ -1,0 +1,24 @@
+.notFound{
+    /* max-width: 55rem !important; */
+    margin: auto;
+    text-align: center;
+    color: #fafafa;
+}
+
+.nfContainer{
+    padding: 3.5rem 0 !important;
+}
+
+.notFound h2{
+    padding: 2rem 0;
+    text-transform: uppercase;
+    text-shadow: 0 0 2.5px yellow;
+}
+
+.img{
+    max-width: 25rem;
+    max-height: 25rem;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}

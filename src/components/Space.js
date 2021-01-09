@@ -68,7 +68,7 @@ function Space() {
           </p>
         </Col>
       </Row>
-      <Link to="/Search">
+      <Link to="/search">
         <center>
           <Button className={styles.textcenter} size="lg" variant="primary">
             Search🔍📷
