@@ -3,9 +3,20 @@
   
 </div>
 
-## prerequisites
+## Key Features and basic Description of project
+* First Component of this project and is 3d earth and also it is built with help of reactjs and threejs liraries and also there is one footer component below and for routing pages we used `react-router` library 
+* Second Component is fully dynamic means that content is regualry updated for that we `NASA APOD(Astronomy picture of the day) API` and also there one text-to-speech button is there that uses `react-speech-kit` library please don't overuse the api and don't click again again on that text to speech icon.
+* 3rd component takes input from users and shows images(those images coming from unsplash api) according user search and also we can download those high resolution images and preview of those things is also available now.
 
-* nodejs and reactjs should be install in your system 
+* **For details like which issues(to code come at the time of development) & more details related of this project for that check article from day1 to last day 👉**[Dev.to Articles series](https://dev.to/krishnakakade/d1-idea-fixing-and-brainstorming-for-digitalocean-hackathon-4535)
+
+## Complete youtube video on this project on local system
+* [![Complete YouTube Video like sound and all the things are shown there](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=9XXvG-bNsHI&t=6s)
+
+## Complete view of SpaceTravel app in terms of GIF⤵
+<img src="https://github.com/krishnadevz/SpaceTravel/blob/main/spacetravel.gif" alt="basicview">
+
+
 ## List of Dependancies you have to add/install using (Ex:- npm install react-bootstrap) for proper working of the project on your local system
 ```js
 dependencies: {
@@ -29,13 +40,10 @@ dependencies: {
     "web-vitals": "^0.2.4"
   }
   ```
-## Complete view of SpaceTravel app in terms of GIF⤵
 
+## prerequisites
 
-
-
-
-
+* nodejs and reactjs should be install in your system and above dependancies are must to add on your local system.
 
 
 
@@ -45,10 +53,35 @@ dependencies: {
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start or npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+## Contributors
+<table>
+  <tr>
+      <td align="center"><a href="https://github.com/krishnadevz/"><img src="https://avatars1.githubusercontent.com/u/42638797?s=460&u=0690dec92c80e9ab0f3b09322272e1cc4cb3ba3f&v=4" width="100px;" alt=""/><br /><sub><b>krishna kakade</b></sub></a><br /><a href="https://github.com/itshally/wb-covid19" title="Reviewed Pull Requests and developer">💻🛠</a> </td>
+     <td align="center"><a href="https://github.com/itshally/"><img src="https://avatars2.githubusercontent.com/u/39101336?s=460&u=dfa8c0109052f69e39b4754279c34cc2a20063a6&v=4" width="100px;" alt=""/><br /><sub><b>Harriette Bianan</b></sub></a><br /><a href="https://github.com/itshally/wb-covid19" title="Reviewed Pull Requests and developer">💻🛠</a> </td>
+  </tr>
+    </table>
+
+
+## Authors
+
+* **Krishna kakade**  - [krishnadevz](https://github.com/krishnadevz)
+* **Harriette Bianan** - [itshally](https://github.com/itshally)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
