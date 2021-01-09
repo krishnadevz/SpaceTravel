@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <Container className={styles.footerContainer}>
+    <Container fluid={true} className={styles.footerContainer}>
       <Row>
         <Col xs={12} sm={12} md={4} lg={3}>
           <h4>Authors</h4>

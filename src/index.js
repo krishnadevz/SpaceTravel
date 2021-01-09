@@ -6,20 +6,23 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Space from "./components/Space";
 import Globe from "./components/Globe";
 import Search from "./components/Search";
+import NotFound from "./components/NotFound";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Footer from "./components/Footer";
 // do not delete this
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <BrowserRouter>
-    <React.StrictMode>
+    {/* <React.StrictMode> */}
       <Switch>
         <Route exact path="/" component={Globe} />
-        <Route path="/Space" exact component={Space} />
-        <Route path="/Search" exact component={Search} />
+        <Route  path="/space" component={Space} />
+        <Route  path="/search" component={Search} />
+        <Route path="*" component={NotFound}/>
       </Switch>
-    </React.StrictMode>
+    {/* </React.StrictMode> */}
+    <Footer/>
   </BrowserRouter>,
   document.getElementById("root")
 );

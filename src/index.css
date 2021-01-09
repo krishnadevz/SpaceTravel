@@ -1,4 +1,5 @@
-html{
+*,
+html {
   padding: 0;
   margin: 0;
   background: #030303 !important;
@@ -21,6 +22,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
@@ -32,4 +34,8 @@ body {
   line-height: 1.7;
   font-size: 20px;
   background-color: #030303;
+}
+
+.nav .nav-item a:hover {
+  text-decoration: none;
 }

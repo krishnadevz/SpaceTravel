@@ -2,7 +2,6 @@
   margin: auto;
   position: relative;
   height: 100vh;
-  /* padding: 0 2rem; */
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,12 +75,13 @@
   justify-content: start;
   align-items: center;
 }
+
 .textcenter {
   justify-content: center;
   align-items: center;
 }
 
-.header{
+.header {
   display: flex !important;
   padding: 0.5rem !important;
   justify-content: start;

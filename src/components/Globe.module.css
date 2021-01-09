@@ -34,7 +34,7 @@
 
 .button:hover,
 .button:active {
-  background-color: #fafafa;
+  background-color: #fafafa !important;
   box-shadow: 0 0px 5px #555;
   color: #101110;
   text-decoration: none;
@@ -50,6 +50,12 @@
   width: 100%;
   margin: 5rem auto;
   line-height: 2;
+  background-color: #030303;
+}
+
+.aboutContent p,
+.aboutContent h4 {
+  background-color: #030303;
 }
 
 .aboutContent p:first-child {

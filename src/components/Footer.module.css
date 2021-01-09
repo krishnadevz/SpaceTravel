@@ -1,8 +1,26 @@
 .footerContainer {
-  max-width: 55rem !important;
   width: 100%;
   margin: auto;
   text-align: center;
+  background-color: #0f0f0f !important;
+  padding: 2.5rem 3.5rem;
+  color: #fafafa;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.footerContainer div {
+  max-width: 55rem !important;
+  background-color: transparent !important;
+  margin: 0 auto;
+}
+
+.footerContainer .row {
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .ul {
@@ -14,9 +32,19 @@
 .footerContainer h4,
 .ul {
   text-align: left;
+  background-color: transparent !important;
+}
+
+.footerContainer li,
+a {
+  background-color: transparent !important;
 }
 
 .ul a,
 .ul a:hover {
   text-decoration: none;
+}
+
+.footerContainer span {
+  background-color: transparent !important;
 }

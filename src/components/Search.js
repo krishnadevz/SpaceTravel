@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import Unsplash, { toJson } from "unsplash-js";
+import ReactGlobe from "react-globe";
 import styles from "./Search.module.css";
+import {Row, Col, Container, Button, Form, FormControl, Nav} from 'react-bootstrap'
+import Navbar from './Navlinks'
+import {BrowserRouter as Router} from 'react-router-dom'
+import ModalImage from "react-modal-image-responsive";
+import {Download} from 'react-bootstrap-icons'
 
 function Search() {
   const [query, setQuery] = useState("");
@@ -18,40 +24,45 @@ function Search() {
         setPics(json.results);
       });
   };
+
   return (
     <div className={styles.bg}>
-      <div className={styles.container}>
+      <ReactGlobe height="50vh" width="100%" />
+      <Container className={styles.searchContainer}>
+        <Navbar/>
         <h1 className={styles.title}>Space Photo Search🛸</h1>
-      </div>
-      <form className={styles.form} onSubmit={searchPhotos}>
-        <label className={styles.label} htmlFor="query">
-          {" "}
-        </label>
-        <input
-          type="text"
-          name="query"
-          className={styles.input}
-          placeholder={`Try anything related to space`}
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        <button type="submit" className={styles.button}>
-          Search🔍
-        </button>
-      </form>
-      <div className={styles.cardlist}>
+        <Form onSubmit={searchPhotos}>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2" name="query" value={query}
+          onChange={(e) => setQuery(e.target.value)}/>
+            <Button className={styles.searchBtn} type="submit">Search🔍</Button>
+          </Form>
+      </Container>
+
+      {/* card list className={styles.cardlist}*/}
+      <Container className={styles.searchContainer}>
+        
+        {console.log('url pic', pics)}
+        <Container className={styles.imgContainer}>
         {pics.map((pic) => (
-          <div className="card" key={pic.id}>
-            <img
-              className={styles.cardimage}
-              alt={pic.alt_description}
-              src={pic.urls.full}
-              width="50%"
-              height="50%"
-            ></img>
+          <div key={pic.id}>
+            <ModalImage
+                  small={pic.urls.small}
+                  large={pic.urls.full}
+                  alt={pic.alt_description}
+                  hideDownload={true}
+                  hideZoom={true}
+                  className={styles.smallPic}
+                  variant="top"
+                  title="Click to preview"
+                />
+                <a href={pic.links.download + "?force=true"} rel="noopener noreferrer" download>
+                  <Button className={styles.dlBtn}>Download Image <Download/></Button>
+                </a>
           </div>
         ))}
-      </div>
+        
+        </Container>  
+      </Container>
     </div>
   );
 }
