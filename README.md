@@ -17,6 +17,15 @@
 ## Complete view of SpaceTravel app in terms of GIF updated soon⤵
 <img src="https://github.com/krishnadevz/SpaceTravel/blob/main/spacetravel.gif" alt="basicview">
 
+### Screenshots
+
+* Zoomed out because of taking whole that's some things are not visible and also this is responsive for all devices across the globe 
+<img src="https://dev-to-uploads.s3.amazonaws.com/i/6i3uth1qiynhg0fomrqg.png" alt="img">
+<img src="https://dev-to-uploads.s3.amazonaws.com/i/bmim42kw2rlas64h6cor.jpg" alt="img">
+<img src="https://dev-to-uploads.s3.amazonaws.com/i/ye64yn9qx4mrssa02ai0.jpg" alt="img">
+
+
+
 
 ## List of Dependancies you have to add/install using (Ex:- npm install react-bootstrap) for proper working of the project on your local system
 ```js
