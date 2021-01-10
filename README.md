@@ -14,7 +14,7 @@
 ## Complete youtube video on this project on local system
 * [![Complete YouTube Video like sound and all the things are shown there](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=9XXvG-bNsHI&t=6s)
 
-## Complete view of SpaceTravel app in terms of GIF updated soon⤵
+## Complete view of SpaceTravel app⤵
 <img src="https://github.com/krishnadevz/SpaceTravel/blob/main/spacetra.gif" alt="basicview">
 
 ### Screenshots
