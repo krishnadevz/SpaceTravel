@@ -43,7 +43,7 @@
 }
 
 .searchContainer input:focus {
-  color: #fafafa !important;
+  color: #221d1d !important;
   box-shadow: none !important;
   border-color: #fafafa !important;
 }

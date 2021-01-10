@@ -115,12 +115,12 @@
 }
 
 .cardHeader {
-  background-color: #141313 !important;
+  background-color: #080808 !important;
 
 }
 
 .cardHeader:hover .accordionLink {
-  color: #030303 !important;
+  color: #330ae7 !important;
 
 }
 
