@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   overflow: auto !important;
   padding: 2.5rem 0;
-  background-image: url("../assets/space-bg.jpeg") !important;
+  background-image: url('../assets/space-bg.jpeg') !important;
 }
 
 .spaceContainer {
@@ -42,6 +42,7 @@
   margin: auto;
   align-items: center;
 }
+
 
 .space img {
   width: 100%;
@@ -113,12 +114,14 @@
   color: #fafafa !important;
 }
 
-.cardHeader:hover {
-  background-color: #fafafa !important;
+.cardHeader {
+  background-color: #141313 !important;
+
 }
 
 .cardHeader:hover .accordionLink {
   color: #030303 !important;
+
 }
 
 .accordionLink {
