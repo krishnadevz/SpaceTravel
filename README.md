@@ -5,7 +5,7 @@
 
 ## Key Features and basic Description of project
 * First Component of this project and is 3d earth and also it is built with help of reactjs and threejs liraries and also there is one footer component below and for routing pages we used `react-router` library 
-* Second Component is fully dynamic means that content is regualry updated for that we `NASA APOD(Astronomy picture of the day) API` and also there one text-to-speech button is there that uses `react-speech-kit` library please don't overuse the api and don't click again again on that text to speech icon.
+* Second Component is fully dynamic means that content is regualry updated for that we `NASA APOD(Astronomy picture of the day) API` and also there one text-to-speech button is there that uses `react-speech-kit` library please don't overuse the api and don't click again again on that text to speech icon and now also there is new random APOD images feature and many more check the articles for that and live demo links .
 * 3rd component takes input from users and shows images(those images coming from unsplash api) according user search and also we can download those high resolution images and preview of those things is also available now.
 
 * **For details like which issues(to code come at the time of development) & more details related of this project for that check article from day1 to last day 👉**[Dev.to Articles series](https://dev.to/krishnakakade/d1-idea-fixing-and-brainstorming-for-digitalocean-hackathon-4535)
