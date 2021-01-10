@@ -15,7 +15,7 @@
 * [![Complete YouTube Video like sound and all the things are shown there](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=9XXvG-bNsHI&t=6s)
 
 ## Complete view of SpaceTravel app in terms of GIF updated soon⤵
-<img src="https://github.com/krishnadevz/SpaceTravel/blob/main/spacetravel.gif" alt="basicview">
+<img src="https://github.com/krishnadevz/SpaceTravel/blob/main/spacetra.gif" alt="basicview">
 
 ### Screenshots
 
