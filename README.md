@@ -8,12 +8,13 @@
 * Second Component is fully dynamic means that content is regualry updated for that we `NASA APOD(Astronomy picture of the day) API` and also there one text-to-speech button is there that uses `react-speech-kit` library please don't overuse the api and don't click again again on that text to speech icon and now also there is new random APOD images feature and many more check the articles for that and live demo links .
 * 3rd component takes input from users and shows images(those images coming from unsplash api) according user search and also we can download those high resolution images and preview of those things is also available now.
 
+* check live demo link of the application 👉[live demo link👨‍🚀💫 ](https://spacetravel-xb7ys.ondigitalocean.app/) 
 * **For details like which issues(to code come at the time of development) & more details related of this project for that check article from day1 to last day 👉**[Dev.to Articles series](https://dev.to/krishnakakade/d1-idea-fixing-and-brainstorming-for-digitalocean-hackathon-4535)
 
 ## Complete youtube video on this project on local system
 * [![Complete YouTube Video like sound and all the things are shown there](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=9XXvG-bNsHI&t=6s)
 
-## Complete view of SpaceTravel app in terms of GIF⤵
+## Complete view of SpaceTravel app in terms of GIF updated soon⤵
 <img src="https://github.com/krishnadevz/SpaceTravel/blob/main/spacetravel.gif" alt="basicview">
 
 
